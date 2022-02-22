@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./assets/favcontact.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="sup-number">
+                <ul>
+                    <li style="background-color:#C0C0C0;">
+                        <a href=""><i class='fone bx bxs-phone'></i></a>
+                        <a href="" class="number">Hỗ trợ: 0123456789</a>
+                    </li>
+                </ul>
+                <hr style="height: 10px; background-color: #333;">
+                <a href=""> <img class="image" src="./img/loggoo.png" alt=""></a>
+                <ul class="icon">
+
+                </ul>
+                <hr style=" height: 10px; background-color: #333;">
+            </div>
+        </div>
+        <div id="slider">
+            <div class="menu">
+                <ul class="nav">
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li>
+                        <a href="">Sản phẩm theo game<i class='bx bx-chevron-down'></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="">Game PUPG</a></li>
+                            <li><a href="">Game LOL</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Hot sale</a></li>
+                    <li><a href="./MarvelDC.html">Marvle DC</a></li>
+                    <li>
+                        <a href="">Manga/Anime<i class='bx bx-chevron-down'></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="">Naruto</a></li>
+                            <li><a href="">7 viên ngọc rồng</a></li>
+                            <li><a href="">Once</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <ul class="icon">
+                <a href="">
+                    <li><a href="login.html"><i class='uer bx bxs-user'></i></a></li>
+                    <li><input class="write" type="text" placeholder="Tìm kiếm..." /></li>
+                    <li><a href=""><i class='sre bx bx-search'></i></a></li>
+                    <li><a href="cart.html"><i class='cart bx bx-cart'></i></a></li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Keep in touch!</h1>
+        <h3>I'll get back to you as quickly as possible</h3>
+
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="usa">VietNamese</option>
+          </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+
+</html>
